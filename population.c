@@ -9,17 +9,15 @@ int main(void)
     int y;
     int b;
     int d;
-    (do
+    do
       
-         ss = get_int("Starting size: ")
-      
-        );
-
+    {ss = get_int("Starting size: ") 
+        };
     while (ss < 9);
     //Prompt for Ending size
-    (do
-         es = get_int("Ending size:")
-        );
+    do
+    {es = get_int("Ending size:") 
+        };
     while (es <= ss);
     
 // Calculate number of years until we reach threshold
