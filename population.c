@@ -11,12 +11,12 @@ int main(void)
     int d;
     do
       
-    {ss = get_int("Starting size: "); 
+    {ss = get_int("Start size: "); 
         }
     while (ss < 9);
     //Prompt for Ending size
     do
-    {es = get_int("Ending size:"); 
+    {es = get_int("End size:"); 
         }
     while (es <= ss);
     
